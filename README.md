@@ -8,6 +8,8 @@
 
 This project wires **Hotmart webhooks** into **Supabase Edge Functions** and a minimal **Postgres schema** to keep subscription state in sync, log every incoming event, and expose a simple endpoint your app can call to gate access and read the user’s active plan.
 
+For a step‑by‑step setup walkthrough, see [SETUP.md](./SETUP.md).
+
 ### What it does
 
 - **Receives Hotmart webhooks**:
